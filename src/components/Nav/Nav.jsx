@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Hamburger from 'hamburger-react'
 
 import './Nav.css'
+import Button from '../Button/Button'
 
 const Nav = () => {
   const [isOpen, setOpen] = useState(false)
@@ -32,7 +33,7 @@ const Nav = () => {
         >
           Nasze Usługi
         </Link>
-        
+        <Button w={160} h={40} layout={'Kontakt'}/>
       </ul>
       <div className='hamburger'>
         <Hamburger

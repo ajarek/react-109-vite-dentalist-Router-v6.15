@@ -1,0 +1,9 @@
+.btn-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blueViolet);
+  color:var(--white);
+  border-radius: 8px;
+  text-decoration: none;
+}

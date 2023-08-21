@@ -1,10 +1,11 @@
 
+import Baner from '../../sections/Banner/Baner'
 import './Home.css'
 
 const Home = () => {
   return (
     <div className='home'>
-     Home
+     <Baner/>
     </div>
   )
 }
