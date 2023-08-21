@@ -2,6 +2,7 @@ import { MdPhoneInTalk } from 'react-icons/md';
 import Button from '../../components/Button/Button'
 import './Baner.css'
 import bannerImg from '/images/baner.png'
+import bannerUser from '/images/baner-user.png'
 const Baner = () => {
   return (
     <div className='baner'>
@@ -31,7 +32,15 @@ const Baner = () => {
           src={bannerImg}
           alt='baner-image'
         />
+         <div className="baner-modal">
+        <img src={bannerUser} alt="" />
+        <div className="baner-modal-wrapper">
+          <div><b>Dr Anna Nowak</b></div>
+          <div>Konsultant</div>
+        </div>
       </div>
+      </div>
+     
       
     </div>
   )

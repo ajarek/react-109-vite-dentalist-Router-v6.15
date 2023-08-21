@@ -33,7 +33,7 @@ const Nav = () => {
         >
           Nasze Usługi
         </Link>
-        <Button w={160} h={40} layout={'Kontakt'}/>
+        <Button w={160} h={40} fs={'1.2rem'} layout={'Kontakt'}/>
       </ul>
       <div className='hamburger'>
         <Hamburger

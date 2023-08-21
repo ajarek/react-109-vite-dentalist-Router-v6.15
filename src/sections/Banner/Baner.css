@@ -23,6 +23,7 @@
 .baner-img{
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .baner-contact{
   display: flex;
@@ -47,4 +48,17 @@
 }
 .baner-contact .phone-wrapper b{
   color: var(--black-light);
+}
+.baner-modal{
+width: 208px;
+height: 62px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: absolute;
+bottom: 30px;
+left: 0;
+padding: 0 4px;
+border-radius: 8px;
+background-color: var(--white);
 }
