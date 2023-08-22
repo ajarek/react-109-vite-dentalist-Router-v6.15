@@ -7,6 +7,7 @@ import Home from './pages/Home/Home'
 import AboutUs from './pages/AboutUs/AboutUs'
 import ServiceSingle from './pages/ServiceSingle/ServiceSingle'
 import Error from './pages/Error/Error'
+import Contact from './pages/Contact/Contact'
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
       {
         path: '/nasze-uslugi',
         element: <ServiceSingle />,
+        errorElement: <Error />,
+      },
+      {
+        path: '/kontakt',
+        element: <Contact />,
         errorElement: <Error />,
       },
 

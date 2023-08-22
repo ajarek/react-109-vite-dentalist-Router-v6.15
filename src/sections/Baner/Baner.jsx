@@ -17,7 +17,7 @@ const Baner = () => {
           najnowsze rozwiązania i technologie.
         </p>
         <div className="baner-contact">
-        <Button w={208} h={62} layout={'Umów Wizytę'}/>
+        <Button link={'/kontakt'} w={208} h={62} layout={'Umów Wizytę'}/>
         <div className="phone">
         <MdPhoneInTalk size={30} color={'#8a2be2'} />
         <a href='tel:+48573230297' className="phone-wrapper">

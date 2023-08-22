@@ -1,6 +1,7 @@
 import IconArea from '../../components/IconArea/IconArea'
 import './ServiceDental.css'
 import Button from './../../components/Button/Button';
+import { Link } from 'react-router-dom';
 
 const ServiceDental = () => {
   return (
@@ -20,7 +21,7 @@ const ServiceDental = () => {
         <IconArea icon={'/images/root.png'} title={'Leczenie Kanałowe'} text={'Opróżnieniu zęba z chorej  miazgi,  wypełnieniu go i odtworzeniu powierzchni korony.'}/>
       </div>
       <div className="btn-services">
-        <Button w={208} h={62} layout={'Wszystkie Usługi ➡️'} bc='#bad7f9' col='#0062b2' fs={'1.2rem'}/>
+        <Button link={'/nasze-uslugi'} w={208} h={62} layout={'Wszystkie Usługi ➡️'} bc='#bad7f9' col='#0062b2' fs={'1.2rem'}/>
       </div>
     </div>
   )
