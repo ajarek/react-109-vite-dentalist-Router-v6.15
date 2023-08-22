@@ -3,6 +3,7 @@ import Button from '../../components/Button/Button'
 import './Baner.css'
 import bannerImg from '/images/baner.png'
 import bannerUser from '/images/baner-user.png'
+import bannerTooth from '/images/tooth.png'
 const Baner = () => {
   return (
     <div className='baner'>
@@ -32,8 +33,11 @@ const Baner = () => {
           src={bannerImg}
           alt='baner-image'
         />
+        <div className="tooth">
+          <img src={bannerTooth} alt="tooth" />
+        </div>
          <div className="baner-modal">
-        <img src={bannerUser} alt="" />
+        <img src={bannerUser} alt="user" />
         <div className="baner-modal-wrapper">
           <div><b>Dr Anna Nowak</b></div>
           <div>Konsultant</div>

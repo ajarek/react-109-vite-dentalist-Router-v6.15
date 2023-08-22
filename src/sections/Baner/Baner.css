@@ -12,6 +12,7 @@
 }
 .baner-info h1{
   font-size: 4rem;
+  font-weight: 600;
   margin-bottom: 32px;
 }
 
@@ -61,4 +62,8 @@ left: 0;
 padding: 0 4px;
 border-radius: 8px;
 background-color: var(--white);
+}
+.baner .tooth{
+  position: absolute;
+  left: 0;
 }
