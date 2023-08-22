@@ -2,7 +2,7 @@ import './ServiceSingle.css'
 
 const ServiceSingle = () => {
   return (
-    <div>ServiceSingle</div>
+    <div className='service-single'>Nasze usługi</div>
   )
 }
 

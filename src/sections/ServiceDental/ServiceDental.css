@@ -22,3 +22,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
+.btn-services{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
