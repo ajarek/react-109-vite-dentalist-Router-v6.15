@@ -13,9 +13,9 @@ const Testimonial = () => {
         
       </div>
       <div className="testimonial-user-wrapper">
-        <UserCard icon={'/images/user1.png'} title={'Jan Bukowski'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, veritatis.'}/>
-        <UserCard icon={'/images/user2.png'} title={'Adam Zieliński'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, veritatis.'}/>
-        <UserCard icon={'/images/user3.png'} title={'Ewa Kamińska'} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, veritatis.'}/>
+        <UserCard icon={'/images/user1.png'} title={'Jan Bukowski'} text={'Profesjonalne podejście, bezbolesne zabiegi i piękny uśmiech to efekt współpracy z tą Kliniką.'}/>
+        <UserCard icon={'/images/user2.png'} title={'Adam Zieliński'} text={'Ta Klinika to pewność zdrowia jamy ustnej, polecam wszystkim dbającym o higienę.'}/>
+        <UserCard icon={'/images/user3.png'} title={'Ewa Kamińska'} text={'Zaufanie, komfort i nowoczesne technologie - Ci lekarze dbają o nasze uśmiechy na najwyższym poziomie.'}/>
       </div>
     </div>
   )
