@@ -1,0 +1,21 @@
+.icon-features{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px;
+}
+.img-features-icon{
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  margin-right: 16px;
+ 
+ background-color: var(--white);
+ border-radius: 10px;
+}
+.icon-features .img-features-icon img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}

@@ -1,0 +1,29 @@
+.features{
+  width: 100%;
+  padding: 50px;
+  background-color: var(--blue-light-super);
+  border-radius: 50px;
+}
+.features h4{
+  margin-bottom: 16px;
+}
+.features .info-wrapper{
+ 
+}
+.features .title h2{
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+.features .text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+.icon-features-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  
+}
