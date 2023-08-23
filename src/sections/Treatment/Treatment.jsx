@@ -11,7 +11,7 @@ const Treatment = () => {
         </div>
       <div className='info-wrapper'>
         <div className='title'>
-          <h2>Delikatne, przyjazne leczenie w naszej praktyce.</h2>
+          <h2>Delikatne, przyjazne leczenie w naszej praktyce</h2>
         </div>
         <div className='text'>
           Dla wygody naszych pacjentów wykorzystujemy nowoczesną oraz przyjazną

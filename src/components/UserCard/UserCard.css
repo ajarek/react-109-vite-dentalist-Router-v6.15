@@ -1,0 +1,28 @@
+.user-card{
+  background-color: var(--white);
+  margin: 16px;
+  padding:64px 16px;
+  position: relative;
+}
+.img-user-card-icon{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -48px;
+  padding: 8px;
+  background-color: var(--blue-light-super);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-user-card,.text-user-card,.stars{
+  text-align: center;
+  margin: 32px 0px;
+}
+.stars{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 32px;
+}
