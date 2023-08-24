@@ -1,0 +1,32 @@
+
+.icon-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.wrapper-icon-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background-color: var(--grey-dark);
+  border-radius: 15px;
+}
+.info-footer-wrapper{
+  width: 100%;
+  margin-left: 16px;
+}
+.title-footer{
+  font-weight: 400;
+  color: var(--grey-dark);
+}
+.img-footer-icon{
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: var(--white);
+ border-radius: 10px;
+}
+
