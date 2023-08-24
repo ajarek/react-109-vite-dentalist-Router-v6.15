@@ -1,0 +1,14 @@
+.user-team{
+  
+  
+}
+.img-user-team-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue-light);
+}
+.title-user-team{
+  text-align: center;
+  margin: 16px 0px;
+}
