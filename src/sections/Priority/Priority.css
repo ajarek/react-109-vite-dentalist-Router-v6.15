@@ -1,0 +1,37 @@
+.priority{
+  width: 100%;
+  padding: 50px;
+}
+.priority .priority-wrapper{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 50%));
+  padding:50px 0px ;
+}
+.priority .info-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.img-priority{
+  padding-right: 20px;
+}
+.img-priority img{
+  width: 90%;
+  object-fit: cover;
+}
+.priority .title h2{
+  font-size: 3rem;
+}
+.priority .text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.btn-priority{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
