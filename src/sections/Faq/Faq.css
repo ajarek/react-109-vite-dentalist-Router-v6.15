@@ -1,0 +1,7 @@
+.faq{
+  width: 100%;
+  padding: 50px;
+}
+.faq h4, .faq h1{
+  margin-bottom: 16px;
+}
