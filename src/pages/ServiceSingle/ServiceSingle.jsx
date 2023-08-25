@@ -1,8 +1,11 @@
+import RootCanals from '../../sections/RootCanals/RootCanals'
 import './ServiceSingle.css'
 
 const ServiceSingle = () => {
   return (
-    <div className='service-single'>Nasze usługi</div>
+    <div className='service-single'>
+      <RootCanals/>
+    </div>
   )
 }
 

@@ -1,0 +1,37 @@
+.root-canals{
+ 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 50%));
+  background-color: var(--blue-light-super);
+  padding:150px 50px 0 50px;
+  border-radius:50px ;
+  
+}
+
+.root-canals h1{
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.root-canals p{
+  font-size: 1.2rem;
+  line-height:1.4 ;
+  margin-bottom: 32px;
+  width: 80%;
+}
+.root-canals-img{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.root-canals-img img{
+width: 100%;
+}
+.root-canals-contact{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
