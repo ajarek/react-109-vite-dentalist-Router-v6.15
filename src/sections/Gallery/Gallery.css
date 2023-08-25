@@ -1,0 +1,35 @@
+.gallery{
+  width: 100%;
+  padding:150px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery h1{
+margin-bottom: 32px;
+font-size: 3rem;
+}
+.gallery p{
+  margin-bottom: 32px;
+  font-size: 1.2rem;
+}
+.gallery .gallery-wrapper1-3{
+ display: grid;
+ grid-template-columns:451px 261px 356px ;
+ gap:32px;
+ place-items: center;
+ margin-bottom: 32px;
+}
+
+.gallery .gallery-wrapper4-6{
+ display: grid;
+ grid-template-columns:260px 355px 450px ;
+ gap: 32px;
+ place-items: center;
+}
+ 
+.img img{
+  width: 100%;
+  object-fit: cover;
+  
+}
