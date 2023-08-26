@@ -8,7 +8,7 @@ const AboutLogo = () => {
       
         <div className='info-wrapper'>
           <div className='title'>
-            <h2>About Us</h2>
+            <h2>O Nas</h2>
           </div>
           <div className='text'>
           Chcemy, abyś czuł się niesamowicie, dbając o zdrowie jamy ustnej. Nie tylko dwa razy w roku, ale za każdym razem, gdy ugryziesz, opowiesz dowcip, pośmiejesz się lub pocałujesz.

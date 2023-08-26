@@ -10,7 +10,7 @@ const UserTeam = ({foto,title}) => {
         />
       </div>
       <div className='info-user-team-wrapper'>
-        <h4 className='title-user-team'>{title}</h4>
+        <h4 className='title-user-team'>dr {title}</h4>
       </div>
     </div>
   )
