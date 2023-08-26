@@ -1,4 +1,6 @@
 .baner{
+  width: 100%;
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 50%));
   background-color: var(--blue-light-super);
@@ -11,7 +13,7 @@
   flex-direction: column;
 }
 .baner-info h1{
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
   margin-bottom: 32px;
 }
@@ -22,9 +24,14 @@
   margin-bottom: 32px;
 }
 .baner-img{
+  width: 100%;
   display: flex;
   justify-content: center;
   position: relative;
+}
+.baner-img img{
+  width: 100%;
+  object-fit: cover;
 }
 .baner-contact{
   display: flex;
@@ -63,7 +70,31 @@ padding: 0 4px;
 border-radius: 8px;
 background-color: var(--white);
 }
+.baner-modal img{
+  height: 100%;
+ width: auto;
+  object-fit: cover;
+}
 .baner .tooth{
   position: absolute;
   left: 0;
+}
+@media (max-width:750px) {
+  .baner{
+    display: flex;
+    flex-direction: column-reverse;
+    padding:50px 10px 0 10px;
+    border-radius:0px ;
+  }
+  
+  .baner-info h1{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .baner-info p{
+   text-align: center;
+  }
+  .baner-contact{
+    flex-direction: column;
+  }
 }

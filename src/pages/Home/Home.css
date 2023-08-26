@@ -3,3 +3,8 @@
   min-height: 100vh;
   padding:90px 30px;
 }
+@media (max-width:750px) {
+  .home{
+    padding:90px 0px;
+  }
+}
