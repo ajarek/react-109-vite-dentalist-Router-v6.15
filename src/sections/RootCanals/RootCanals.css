@@ -37,23 +37,23 @@ object-fit: cover;
   align-items: center;
   justify-content: flex-start;
 }
-/* @media (max-width:750px) {
+@media (max-width:750px) {
   .root-canals{
     display: flex;
     flex-direction: column-reverse;
     padding:50px 10px 0 10px;
     border-radius:0px ;
   }
-  .root-canals-img img{
-    width: 50%;
-    border: solid red;
-  }
-  .title h2{
+  .root-canals h1{
     text-align: center;
     font-size: 2rem;
   }
-  .text{
+  .root-canals p{
+    width: 100%;
    text-align: center;
   }
+  .root-canals-contact{
+    justify-content: center;
+  }
   
-} */
+}
