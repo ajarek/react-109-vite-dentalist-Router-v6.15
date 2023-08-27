@@ -24,3 +24,26 @@
   gap: 10px;
   justify-content: center;
 }
+@media (max-width:750px) {
+  .team{
+    padding: 0;
+    text-align: center;
+  }
+  .team .info-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding:50px 10px 0 10px;
+    border-radius:0px ;
+  }
+  
+  .team .title h2{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .team .text{
+   text-align: center;
+   font-size: 1rem;
+   padding: 8px;
+  }
+ 
+}

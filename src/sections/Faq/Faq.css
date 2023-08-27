@@ -5,3 +5,11 @@
 .faq h4, .faq h1{
   margin-bottom: 16px;
 }
+@media (max-width:750px) {
+  .faq{
+    padding: 0;
+    text-align: center;
+  }
+  
+ 
+}

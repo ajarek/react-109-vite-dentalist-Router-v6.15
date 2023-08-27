@@ -40,3 +40,26 @@ top: 50px;
   justify-content: center;
   margin-top: 16px;
 }
+@media (max-width:750px) {
+  .about-logo{
+    padding: 0;
+    text-align: center;
+  }
+  .about-logo .about-logo-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding:50px 10px 0 10px;
+    border-radius:0px ;
+  }
+  
+  .about-logo .title h2{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .about-logo .text{
+   text-align: center;
+   font-size: 1rem;
+   padding: 8px;
+  }
+ 
+}

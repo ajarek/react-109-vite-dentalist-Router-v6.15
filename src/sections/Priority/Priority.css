@@ -35,3 +35,26 @@
   justify-content: center;
   margin-top: 16px;
 }
+@media (max-width:750px) {
+  .priority{
+    padding:50px 0;
+    text-align: center;
+  }
+  .priority .priority-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding:50px 10px 0 10px;
+    border-radius:0px ;
+  }
+  
+  .priority .title h2{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .priority .text{
+   text-align: center;
+   font-size: 1rem;
+   padding: 8px;
+  }
+ 
+}
