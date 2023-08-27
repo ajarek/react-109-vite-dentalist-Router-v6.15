@@ -26,12 +26,34 @@
   justify-content: center;
   position: relative;
   width: 100%;
+ 
 }
 .root-canals-img img{
 width: 100%;
+object-fit: cover;
 }
 .root-canals-contact{
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
+/* @media (max-width:750px) {
+  .root-canals{
+    display: flex;
+    flex-direction: column-reverse;
+    padding:50px 10px 0 10px;
+    border-radius:0px ;
+  }
+  .root-canals-img img{
+    width: 50%;
+    border: solid red;
+  }
+  .title h2{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .text{
+   text-align: center;
+  }
+  
+} */

@@ -24,3 +24,26 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 33%));
 }
+@media (max-width:750px) {
+  .testimonial{
+    padding: 0;
+    text-align: center;
+  }
+  .testimonial-user-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding:50px 10px 0 10px;
+    border-radius:0px ;
+  }
+  
+  .testimonial .title h2{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .testimonial .text{
+   text-align: center;
+   font-size: 1rem;
+   padding: 8px;
+  }
+ 
+}

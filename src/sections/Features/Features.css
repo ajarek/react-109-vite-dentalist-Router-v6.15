@@ -27,3 +27,26 @@
   grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   
 }
+@media (max-width:750px) {
+  .features{
+    padding: 0;
+    text-align: center;
+  }
+  .icon-features-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding:50px 10px 0 10px;
+    border-radius:0px ;
+  }
+  
+  .features .title h2{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .features .text{
+   text-align: center;
+   font-size: 1rem;
+   padding: 8px;
+  }
+ 
+}

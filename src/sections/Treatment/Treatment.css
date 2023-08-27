@@ -1,16 +1,27 @@
 .treatment{
   width: 100%;
   padding: 50px;
+  
 }
 .treatment .treatment-wrapper{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 50%));
   padding:50px 0px ;
 }
+.img-treatment{
+  width: 100%;
+}
+.img-treatment img{
+  width: 100%;
+  object-fit: cover;
+}
 .treatment .info-wrapper{
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
+  padding: 0 16px;
+  
 }
 .treatment .title h2{
   font-size: 2rem;
@@ -27,4 +38,32 @@
   display: flex;
   justify-content: center;
   margin-top: 16px;
+}
+@media (max-width:750px) {
+  .treatment{  
+    padding: 10px;
+    text-align: center;   
+  }
+  .treatment-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding:50px 5px 0 5px;
+    border-radius:0px ;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .treatment .title h2{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .treatment .text{
+   text-align: center;
+   font-size: 1rem;
+  }
+  .treatment-wrapper-contact{
+    flex-direction: column;
+  }
 }
